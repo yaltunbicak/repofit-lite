@@ -1,0 +1,39 @@
+name: "MLOps Platform"
+description: "Profile for evaluating MLOps and ML platform tools"
+
+preferred_languages:
+  - Python
+  - Go
+
+preferred_frameworks:
+  - MLflow
+  - Kubeflow
+  - Ray
+
+deployment_preference: "on-premise"
+
+license_policy:
+  allowed:
+    - MIT
+    - Apache-2.0
+    - BSD-2-Clause
+    - BSD-3-Clause
+  forbidden:
+    - AGPL-3.0-only
+    - SSPL-1.0
+
+domains_of_interest:
+  - "MLOps and ML Platform"
+  - "Model Serving"
+  - "Experiment Tracking"
+  - "Feature Store"
+  - "Data Pipeline"
+
+maturity_preference: "production-ready"
+
+scoring_weights:
+  fit: 0.35
+  activity: 0.20
+  community: 0.15
+  popularity: 0.15
+  quality: 0.15

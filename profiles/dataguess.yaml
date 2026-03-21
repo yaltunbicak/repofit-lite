@@ -1,0 +1,70 @@
+name: "Dataguess Default"
+description: "Default evaluation profile for Dataguess technology stack"
+
+preferred_languages:
+  - Python
+  - TypeScript
+  - Go
+
+preferred_frameworks:
+  - NestJS
+  - FastAPI
+  - React
+
+deployment_preference: "on-premise"
+
+license_policy:
+  allowed:
+    - MIT
+    - Apache-2.0
+    - BSD-2-Clause
+    - BSD-3-Clause
+    - ISC
+  forbidden:
+    - AGPL-3.0-only
+    - AGPL-3.0-or-later
+    - SSPL-1.0
+  warn:
+    - GPL-3.0-only
+    - GPL-3.0-or-later
+    - LGPL-3.0-only
+
+domains_of_interest:
+  - "AI Agents and Orchestration"
+  - "LLM Apps and RAG"
+  - "Computer Vision"
+  - "MLOps and ML Platform"
+  - "Industrial IoT and Edge"
+  - "Workflow Automation"
+  - "Backend and API Frameworks"
+  - "DevOps and Observability"
+  - "QA and Test Automation"
+
+maturity_preference: "production-ready"
+
+scoring_weights:
+  fit: 0.35
+  activity: 0.20
+  community: 0.15
+  popularity: 0.15
+  quality: 0.15
+
+thresholds:
+  strong_candidate: 75
+  review_further: 50
+  low_priority: 30
+
+pinned_orgs:
+  github:
+    - langchain-ai
+    - langgenius
+    - microsoft
+    - anthropics
+  gitlab: []
+
+pinned_topics:
+  - llm
+  - agents
+  - rag
+  - computer-vision
+  - fastapi

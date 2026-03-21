@@ -1,0 +1,28 @@
+[
+  {
+    "source": "github",
+    "full_name": "langchain-ai/langgraph",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "description": "Build resilient language agents as graphs.",
+    "stars": 8500,
+    "forks": 1200,
+    "language": "Python",
+    "topics": ["ai", "agents", "langgraph", "llm"],
+    "updated_at": "2025-03-15T10:00:00Z",
+    "search_query": "AI agents LangGraph",
+    "search_rank": 1
+  },
+  {
+    "source": "github",
+    "full_name": "microsoft/autogen",
+    "url": "https://github.com/microsoft/autogen",
+    "description": "A programming framework for agentic AI.",
+    "stars": 35000,
+    "forks": 5000,
+    "language": "Python",
+    "topics": ["ai", "agents", "multi-agent", "llm"],
+    "updated_at": "2025-03-14T08:00:00Z",
+    "search_query": "multi-agent AI framework",
+    "search_rank": 1
+  }
+]

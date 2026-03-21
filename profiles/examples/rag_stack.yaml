@@ -1,0 +1,37 @@
+name: "RAG Stack"
+description: "Profile for evaluating RAG (Retrieval Augmented Generation) components"
+
+preferred_languages:
+  - Python
+  - TypeScript
+
+preferred_frameworks:
+  - LlamaIndex
+  - LangChain
+  - Haystack
+
+deployment_preference: "cloud"
+
+license_policy:
+  allowed:
+    - MIT
+    - Apache-2.0
+    - BSD-3-Clause
+  forbidden:
+    - AGPL-3.0-only
+    - SSPL-1.0
+
+domains_of_interest:
+  - "LLM Apps and RAG"
+  - "Vector Databases"
+  - "Document Processing"
+  - "Embeddings"
+
+maturity_preference: "production-ready"
+
+scoring_weights:
+  fit: 0.40
+  activity: 0.20
+  community: 0.15
+  popularity: 0.10
+  quality: 0.15

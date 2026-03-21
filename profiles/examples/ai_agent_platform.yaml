@@ -1,0 +1,35 @@
+name: "AI Agent Platform"
+description: "Profile for evaluating AI agent orchestration frameworks"
+
+preferred_languages:
+  - Python
+  - TypeScript
+
+preferred_frameworks:
+  - LangGraph
+  - CrewAI
+  - AutoGen
+  - FastAPI
+
+deployment_preference: "any"
+
+license_policy:
+  allowed:
+    - MIT
+    - Apache-2.0
+  forbidden:
+    - AGPL-3.0-only
+
+domains_of_interest:
+  - "AI Agents and Orchestration"
+  - "LLM Apps and RAG"
+  - "Tool Calling and Function Execution"
+
+maturity_preference: "growing"
+
+scoring_weights:
+  fit: 0.40
+  activity: 0.25
+  community: 0.10
+  popularity: 0.10
+  quality: 0.15

@@ -1,0 +1,43 @@
+# Cache
+cache/
+
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+.mypy_cache/
+.ruff_cache/
+
+# Generated reports (test artifacts)
+report*.md
+run*.md
+ens*.md
+final_report*.md
+quick_test*.md
+test_final*.md
+
+# Misc
+*.log
+=*
