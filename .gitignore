@@ -41,3 +41,4 @@ test_final*.md
 # Misc
 *.log
 =*
+docs/analysis/*
