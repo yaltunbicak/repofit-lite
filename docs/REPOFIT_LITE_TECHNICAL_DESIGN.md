@@ -43,7 +43,7 @@ User gives a document → tool returns a ranked, evidence-based shortlist of ope
     requirements.json  candidates[]  enriched[]    report.md
 ```
 
-**4 aşama, tek yönlü pipeline, her aşama öncekinin çıktısını alır.**
+**A four-stage, one-way pipeline. Each stage builds upon the output of the previous one.**
 
 ---
 
@@ -766,7 +766,7 @@ GITLAB_TOKEN=glpat-...
 GITLAB_URL=https://gitlab.com   # Default. Change for self-hosted.
 
 # Optional: ecosyste.ms (just an email for polite pool)
-ECOSYSTEMS_EMAIL=yunus@dataguess.com
+ECOSYSTEMS_EMAIL=abc@xyz.com
 
 # Cache
 CACHE_DIR=./cache
